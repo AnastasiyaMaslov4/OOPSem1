@@ -6,11 +6,10 @@ public abstract class Automat {
     private Integer price;
     protected ArrayList<Product> nameProduct;
 
-    public Automat(Integer id, Integer size, Integer price, ArrayList<Product> nameProduct) {
+    public Automat(Integer id, Integer size, Integer price) {
         this.id = id;
         this.size = size;
         this.price = price;
-        this.nameProduct = nameProduct;
     }
     
     public ArrayList<Product> initProducts(ArrayList<Product> products) {
