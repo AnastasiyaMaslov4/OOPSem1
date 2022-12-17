@@ -15,16 +15,12 @@ public class Sem1 {
         hotProducts.add(2, tea);
         hotProducts.add(3, tea2);
 
-        for (var el : hotProducts) {
-            System.out.println(el.getName());
-        }
 
         HotDrinksAutomat hdAutomat = new HotDrinksAutomat(100, 100, 10000);
         hdAutomat.initHotDrinks(hotProducts);
-        hdAutomat.getName(111);
 
         hdAutomat.getName(112, 400, 90);
-        hdAutomat.getName(0, 0, 0);
+        hdAutomat.getName(114, 300, 90);
         
     }
 }
